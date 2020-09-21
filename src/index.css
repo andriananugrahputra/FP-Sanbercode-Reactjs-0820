@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  /* font-family: "Roboto"; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: rgb(235, 238, 241);
+  position: "relative";
+}
+
+.active {
+  font-weight: 700;
+}
+
+form {
+  background-color: white;
+}
+
+.card-box:hover img {
+  opacity: 0.8;
+}
+
+.card-box:hover .button-hide {
+  opacity: 1;
+}
+
+.button-hide {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
